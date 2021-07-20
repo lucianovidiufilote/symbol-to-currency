@@ -1,20 +1,21 @@
 {
-  "name": "lucianovidiufilote/symbol-to-currency",
-  "description": "PHP symbol to currency",
-  "authors": [
-    {
-      "name": "Lucian Filote",
-      "email": "lucian.filote@gmail.com"
+    "name": "lucianovidiufilote/symbol-to-currency",
+    "description": "PHP symbol to currency",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lucian Filote",
+            "email": "lucian.filote@gmail.com"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "LucianOvidiuFilote\\SymbolToCurrency\\": "src/"
+        }
     }
-  ],
-  "license": "Apache-2.0",
-  "require": {
-    "php": ">=7.2.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "lucianovidiufilote\\SymbolToCurrency\\": "src/"
-    }
-  },
-  "version": "1.0.0"
 }
