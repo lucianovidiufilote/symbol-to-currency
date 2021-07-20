@@ -13,7 +13,7 @@ class SymbolToCurrency
         '$' => 'USD'
     ];
 
-    public function get($symbol)
+    public static function get($symbol)
     {
         return self::DATA[$symbol] ?? null;
     }
